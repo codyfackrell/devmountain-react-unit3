@@ -1,0 +1,33 @@
+footer {
+    height: 150px;
+    background-color: #3f3f3f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.socials-container {
+    color: white;
+}
+
+.socials-text {
+    font-size: 1.4rem;
+}
+
+.socials-icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.social-backgrounds {
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: #508786;
+}
+

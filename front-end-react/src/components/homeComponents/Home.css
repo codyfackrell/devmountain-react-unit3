@@ -1,0 +1,57 @@
+.banner-container {
+  margin: 0 25%;
+  padding: 5% 0;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe-name {
+  color: #d06027;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin: 4% 0;
+}
+
+.recipe-section {
+  padding: 30px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  width: 350px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #f7af8b;
+  display: flex;
+}
+
+.search-icon {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  color: #d06027;
+}
+
+input {
+  width: 100%;
+  font-size: 1.1rem;
+  border: none;
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+}
